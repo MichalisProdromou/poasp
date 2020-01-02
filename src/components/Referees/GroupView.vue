@@ -7,7 +7,7 @@
       v-for="(referee, index) in referees"
       :key="index"
     >
-      <v-card>
+      <v-card>\
         <v-img
           height="200px"
           :src="referee.imgUrl"
